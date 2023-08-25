@@ -1,0 +1,11 @@
+"use strict";
+let firstName;
+firstName = true;
+firstName = "banane";
+firstName = 74;
+const mulet = "chaine de carac teste";
+let age;
+const colors = ['mauve'];
+const note = [42];
+colors.push('bleu');
+console.log(colors);
