@@ -19,3 +19,32 @@ console.log(colors);
 // LEs tulpes: un tab avec nbr fix d elements:
 
 const monTulpes: [string, number] =['teste',45]
+
+const myCarac:{
+    nickname: string,
+    level:number,
+    //? rend la proprieé optionelle
+
+    isSick?:boolean
+}={
+    level:42,
+    nickname:'dramix',
+
+}
+
+//les enums
+
+enum Role{
+    USER='user',
+    ADMIN='admin',
+    SUPERADMIN='superadmin',
+    
+    }
+    
+    
+    let userRole: Role = Role.ADMIN;
+    if(userRole===Role.ADMIN){
+       console.log('c est un admin');
+       
+    }
+    
