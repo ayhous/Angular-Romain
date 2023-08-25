@@ -30,6 +30,7 @@ const myCarac:{
     level:42,
     nickname:'dramix',
 
+
 }
 
 //les enums
